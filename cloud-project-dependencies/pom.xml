@@ -18,6 +18,9 @@
         <cloud-common-exception.version>1.0-SNAPSHOT</cloud-common-exception.version>
         <cloud-common-mvc-custom.version>1.0-SNAPSHOT</cloud-common-mvc-custom.version>
     </properties>
+    
+    <!-- 通过依赖进行服务整合 -->
+    
     <dependencyManagement>
         <dependencies>
             <dependency>

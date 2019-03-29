@@ -72,7 +72,7 @@ public class ResponseFilter extends ZuulFilter {
             ctx.setResponseBody(mapper.writeValueAsString(responseModel));
 
         } catch (IOException e) {
-            log.warn("Error reading body", e);
+            e.printStackTrace();//Error reading body
         }
         return null;
     }

@@ -9,23 +9,23 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>cloud-project-dependencies</module>
-        <module>cloud-common-exception</module>
-        <module>cloud-common-mvc-custom</module>
-        <module>cloud-common-actuator-maven</module>
+        <module>cloud-project-dependencies</module><!-- 项目依赖整合 -->
+        <module>cloud-common-exception</module><!-- 异常处理 -->
+        <module>cloud-common-mvc-custom</module><!-- web客户端 -->
+        <module>cloud-common-actuator-maven</module><!-- maven配置 -->
 
-        <module>cloud-server-discovery</module>
-        <module>cloud-server-config</module>
+        <module>cloud-server-discovery</module><!-- Eureka注册中心  -->
+        <module>cloud-server-config</module><!-- 自动配置  --><!-- https://github.com/ThoreauZZ/spring-cloud-example.git -->
 
         <module>cloud-admin-ui</module>
-        <module>cloud-turbine-dashboard</module>
-        <module>cloud-zipkin-ui</module>
+        <module>cloud-turbine-dashboard</module><!-- 熔断器 -->
+        <module>cloud-zipkin-ui</module> <!-- rpc监控 -->
 
-        <module>cloud-service-client</module>
-        <module>cloud-service-comx</module>
-        <module>cloud-service-trade</module>
+        <module>cloud-service-client</module><!-- controller客户端模块 -->
+        <module>cloud-service-comx</module><!-- 封装类公共类 -->
+        <module>cloud-service-trade</module><!-- 订单模块 -->
         <module>cloud-service-user</module>
-        <module>cloud-api-gateway</module>
+        <module>cloud-api-gateway</module><!-- 网关 -->
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

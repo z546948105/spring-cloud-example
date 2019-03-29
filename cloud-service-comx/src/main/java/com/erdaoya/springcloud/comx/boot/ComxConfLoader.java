@@ -36,7 +36,7 @@ public class ComxConfLoader {
         try {
             prop.load(in);
         } catch (IOException e) {
-            log.error("fail to load properties!", e);
+//            log.error("fail to load properties!", e);
             throw new RuntimeException(e);
         }
         COMX_HOME = prop.getProperty("comx_home");

@@ -7,6 +7,7 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 import org.springframework.cloud.netflix.turbine.EnableTurbine;
 
 /**
+ * 熔断器
  * 2017/1/13
  * @author  erdaoya
  * @since   1.0

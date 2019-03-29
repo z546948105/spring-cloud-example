@@ -39,7 +39,7 @@ public class ScriptDecor extends AbstractDecor implements RefJsonPath{
             String groovyHome   = prop.getProperty("comx_home") + "/groovy-scripts/";
             groovyScriptEngine  = new GroovyScriptEngine(groovyHome);
         } catch (IOException e) {
-            log.error("fail to load properties!", e);
+//            log.error("fail to load properties!", e);
             throw new RuntimeException(e);
         }
     }

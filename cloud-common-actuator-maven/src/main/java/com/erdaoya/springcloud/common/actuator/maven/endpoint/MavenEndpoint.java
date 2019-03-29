@@ -50,7 +50,7 @@ public class MavenEndpoint implements Endpoint{
                 dependencies.add(dependency);
             }
         } catch (Exception e){
-            log.info("not found maven-resolve.properties");
+        	e.printStackTrace();//not found maven-resolve.properties
         }
         mavenEndpointObject.put("dependencies", dependencies);
         return mavenEndpointObject;

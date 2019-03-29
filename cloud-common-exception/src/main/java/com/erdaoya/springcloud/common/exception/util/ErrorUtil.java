@@ -18,7 +18,8 @@ public class ErrorUtil {
         try {
             jsonString = mapper.writeValueAsString(wrap);
         }catch(Exception e){
-            log.error("exceptionWithErrorObjectTranslateFail,{}",e);
+//            log.error("exceptionWithErrorObjectTranslateFail,{}",e);
+            e.printStackTrace();
         }
         return jsonString;
     }
